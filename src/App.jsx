@@ -1,9 +1,11 @@
-
+import Navbar from './components/Header/Navbar';
 
 export default function App() {
   return (
     <>
-      <h3 className="text-3xl font-bold">Text for Testing</h3>
+      <header>
+        <Navbar></Navbar>
+      </header>
     </>
   )
 }
