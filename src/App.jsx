@@ -1,6 +1,7 @@
 import Navbar from './components/Header/Navbar';
 import Banner from './components/Header/Banner';
 import BestLawyers from './components/Main/BestLawyers';
+import Success from './components/Main/Success';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       </header>
       <main className="px-44 space-y-24">
         <BestLawyers></BestLawyers>
+        <Success></Success>
       </main>
     </>
   )
