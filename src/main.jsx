@@ -7,6 +7,7 @@ import App from './App.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
+    loader: () => fetch("/bestLawyers.json"),
     Component: App,
   }
 ])
